@@ -1,0 +1,273 @@
+{
+  "deviceType": "blinky-thermo-cam",
+  "name": "01",
+  "arcPeriod": 60000,
+  "timeStamp": 1615656738071,
+  "lastArchive": 1605297020274,
+  "linkQuality": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 61,
+    "unit": "/70",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 30,
+        "low": 40,
+        "high": 71,
+        "hihi": 80
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "signalLevel": {
+    "action": "reading",
+    "type": "scalar",
+    "value": -49,
+    "unit": "dBm",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -70,
+        "low": -60,
+        "high": 0,
+        "hihi": 30
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "reset": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": -1,
+        "high": 2,
+        "hihi": 2
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "imageDelay": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 10000,
+    "unit": "mS",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 1000,
+        "low": 1000,
+        "high": 20000,
+        "hihi": 21000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "triggerMode": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 3,
+        "hihi": 4
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "archiveData": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 2,
+        "hihi": 3
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "manualTrigger": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 2,
+        "hihi": 3
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "flipHorizontal": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 1,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 2,
+        "hihi": 3
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "flipVertical": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 2,
+        "hihi": 3
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "transpose": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": -1,
+        "high": 2,
+        "hihi": 2
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "resMode": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 1,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": 0,
+        "high": 3,
+        "hihi": 4
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "pixelMin": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 18,
+    "unit": "C",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -10,
+        "low": 0,
+        "high": 30,
+        "hihi": 40
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "pixelMax": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 36.3,
+    "unit": "C",
+    "alarm": {
+      "value": 2,
+      "limits": {
+        "lolo": 15,
+        "low": 20,
+        "high": 35,
+        "hihi": 45
+      },
+      "notify": {
+        "name": "Dave",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "imageData": {
+    "action": "reading",
+    "type": "pgm",
+    "value": null,
+    "unit": "unit"
+  }
+}

@@ -5,6 +5,6 @@
 `MQTTCLIENTID=blinky-thermo-cam-tray-01`  
 `MQTTSERVERIP=`*your-MQTT-broker-URL*  
 `MQTTUSERNAME=`*your-MQTT-broker-username*  
-`MQTTPASSWORD=`*your-MQTT-broker-password*
+`MQTTPASSWORD=`*your-MQTT-broker-password*  
 `NODEREDCONFIGSECRET=`*another-choice*    
 

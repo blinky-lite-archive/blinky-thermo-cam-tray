@@ -2,12 +2,12 @@
   "deviceType": "blinky-thermo-cam",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1615724292996,
+  "timeStamp": 1615805797654,
   "lastArchive": 1605297020274,
   "linkQuality": {
     "action": "reading",
     "type": "scalar",
-    "value": 63,
+    "value": 60,
     "unit": "/70",
     "alarm": {
       "value": 0,
@@ -27,7 +27,7 @@
   "signalLevel": {
     "action": "reading",
     "type": "scalar",
-    "value": -47,
+    "value": -50,
     "unit": "dBm",
     "alarm": {
       "value": 0,
@@ -67,7 +67,7 @@
   "imageDelay": {
     "action": "setting",
     "type": "scalar",
-    "value": 60000,
+    "value": 10000,
     "unit": "mS",
     "alarm": {
       "value": 0,
@@ -87,7 +87,7 @@
   "triggerMode": {
     "action": "setting",
     "type": "scalar",
-    "value": 0,
+    "value": 1,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -224,15 +224,35 @@
       }
     }
   },
-  "pixelMin": {
-    "action": "reading",
+  "scaleMode": {
+    "action": "setting",
     "type": "scalar",
-    "value": 17,
-    "unit": "C",
+    "value": 0,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -10,
+        "lolo": -1,
+        "low": -1,
+        "high": 2,
+        "hihi": 2
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "pixelMin": {
+    "action": "reading",
+    "type": "scalar",
+    "value": -1.2,
+    "unit": "C",
+    "alarm": {
+      "value": 1,
+      "limits": {
+        "lolo": -21,
         "low": 0,
         "high": 30,
         "hihi": 40
@@ -247,10 +267,10 @@
   "pixelMax": {
     "action": "reading",
     "type": "scalar",
-    "value": 35.1,
+    "value": 23.7,
     "unit": "C",
     "alarm": {
-      "value": 2,
+      "value": 0,
       "limits": {
         "lolo": 15,
         "low": 20,

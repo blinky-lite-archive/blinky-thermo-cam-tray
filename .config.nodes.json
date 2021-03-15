@@ -645,5 +645,42 @@
                 "file": "/home/pi/blinky-thermo-cam-tray/node_modules/node-red-node-tail/28-tail.js"
             }
         }
+    },
+    "node-red-contrib-image-tools": {
+        "name": "node-red-contrib-image-tools",
+        "version": "1.4.0",
+        "local": true,
+        "nodes": {
+            "jimp": {
+                "name": "jimp",
+                "types": [
+                    "jimp-image"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/blinky-thermo-cam-tray/node_modules/node-red-contrib-image-tools/jimp.js"
+            },
+            "xzingDecode": {
+                "name": "xzingDecode",
+                "types": [
+                    "Barcode Decoder"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/blinky-thermo-cam-tray/node_modules/node-red-contrib-image-tools/xzingDecode.js"
+            },
+            "imageViewer": {
+                "name": "imageViewer",
+                "types": [
+                    "image viewer"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/blinky-thermo-cam-tray/node_modules/node-red-contrib-image-tools/imageViewer.js"
+            }
+        }
     }
 }
